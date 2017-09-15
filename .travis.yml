@@ -1,1 +1,10 @@
 language: go
+
+deploy:
+  provider: release
+  api_key:
+    secure: $GITHUB_TOKEN_ENC
+  file: "tcpforward"
+  skip_cleanup: true
+  on:
+    tags: true
