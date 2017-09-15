@@ -1,8 +1,6 @@
 sudo: false
 language: go
 
-before_deploy:
-  - make release
 deploy:
   provider: releases
   api_key:
