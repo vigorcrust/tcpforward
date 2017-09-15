@@ -3,7 +3,7 @@ language: go
 deploy:
   provider: releases
   api_key:
-    secure: GITHUB_TOKEN_ENC
+    secure: "OT7IFHoBL30ESwiWF++H/lPcBeBDkNfvSiWYbvD7nvDvddrHULkQSriPx6KzsV1b7ShaiJULGoQRKOS2/11qY0o1HqDHJMop/F+wIxnGs0mWx5nC7Bu0rj7Yy7ILgA9A30c+j9kFbuLCfn0W2YRLxINwS8Gn+d26psGLhOp+G00CNCrLU5nBNYteJ8clxJRpOXrlu7pnVXUqFenso4Gq1FfrIRigFs/N54lGyCLQo5bC2eaX2fcY9CLGzIIlkUJw//rLMHvozWlqktqt19CD5zl3ErM3MjmFGO1bD69nyIwjf2lFI5PVV2qxmGx7AS1XR1IqBFBYfEJz6p63ytzYg2+ovDeNmxn5dv0JDIGNRE7k275sRF/tWfLbj0vXgeLIVUbcr2gJ51Od1vC1ojiDhxQPC9vaGWUyziEnpjdkVLZ6XhwB9Joi1ed+wo+yGOiVEr+7PuJr+zZGQF9Rw5Bx1BRWTky7MuvOUkewOIVtWggdYcAVpT85luiXK/J4s95n5g26QuqTxVlXKqjJyzdQGSvEq85LTlWf9U4//ha6XllMipg/8edlbxbHATXH7L1U4RIihY21IDkg6i1Sb/qa6ShzpVjSukD53g83XaMWlyop6NbyBmpONEQ2zMgfW+icVhNb6PhLWqJerE4AOc22l1JcOExedc/1IUBiVERagQ0="
   file: "tcpforward"
   skip_cleanup: true
   on:
