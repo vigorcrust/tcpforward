@@ -8,7 +8,7 @@ zip = cd build && zip $(appname)_$(1)_$(2).zip $(appname)$(3) && rm $(appname)$(
 release: copy_doc linux_build windows_build
 
 copy_doc:
-	mkdir build/
+	mkdir -p build/
 	cp README.md build/README.md
 	cp LICENSE build/LICENSE
 
