@@ -3,7 +3,7 @@ language: go
 deploy:
   provider: releases
   api_key:
-    secure: $GITHUB_TOKEN_ENC
+    secure: GITHUB_TOKEN_ENC
   file: "tcpforward"
   skip_cleanup: true
   on:
